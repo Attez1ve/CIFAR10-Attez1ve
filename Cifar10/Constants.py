@@ -1,0 +1,7 @@
+import os
+
+
+PATH_DATASETS = os.environ.get("PATH_DATASETS", ".")
+BATCH_SIZE = 4
+NUM_CLASSES = 10
+MAX_EPOCHS = 10
